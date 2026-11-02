@@ -15,7 +15,6 @@ The last recorded voice-gateway test run passed **74/74** tests. The last report
 | Production readiness | Conditional | Complete deployment checklist in target environment |
 
 ## Architecture
-## Architecture
 
 - **Cloudflare Worker:** Existing B8i marketplace backend and Instagram integration, handling webhook events, conversation context, influencer and vendor data, and marketplace actions.
 - **Node.js Voice Gateway:** Handles incoming and outgoing calls, audio streaming, Automatic Speech Recognition (ASR), Muse AI model requests, Text-to-Speech (TTS) processing, and real-time audio delivery.
