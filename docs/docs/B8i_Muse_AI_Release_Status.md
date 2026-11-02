@@ -2,7 +2,7 @@
 **Prepared:** 3 November 2026
 
 ## Executive summary
-The project owner reports that the final live-call test is working. The last recorded voice-gateway test run passed **74/74** tests. The last reported Worker run passed **350/350** tests, but should be rerun against the release checkout. Automated results and the user-confirmed live-call outcome are separate evidence sources.
+The last recorded voice-gateway test run passed **74/74** tests. The last reported Worker run passed **350/350** tests, but should be rerun against the release checkout. Automated results and the user-confirmed live-call outcome are separate evidence sources.
 
 ## Status
 | Area | Status | Evidence |
