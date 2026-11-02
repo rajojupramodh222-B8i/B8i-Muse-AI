@@ -1,0 +1,55 @@
+# Dependencies and generated tooling
+node_modules/
+.wrangler/
+.npm/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+!.dev.vars.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs, caches, and local data
+*.log
+.DS_Store
+Thumbs.db
+
+# Backups and historical copies
+backups/
+safety-backup-*/
+*.bak
+*.backup
+*.pre-production-backup
+worker.js.before-*
+
+# Audio recordings and local test artifacts
+*.pcm
+
+# Local editor settings
+.vscode/
+
+# Local and staging deployment configuration
+wrangler.staging.toml
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
+# Local workspaces and temporary patch scripts
+*.code-workspace
+gateway-patches/
+
+# Local workspace and internal release material
+B8i-Full-Stack.code-workspace
+docs/
+backups/
+safety-backup-*/
+gateway-patches/
+worker.js.before-*
+worker.js.pre-production-backup
+wrangler.toml
+wrangler.toml.pre-production-backup
+wrangler.staging.toml
